@@ -1,0 +1,13 @@
+// First ‘a’ Odd Numbers
+#include <iostream>
+using namespace std;
+
+int main() {
+    int a;
+    cin >> a;
+
+    for (int i = 0; i < a; i++)
+        cout << (2 * i + 1) << " ";
+
+    return 0;
+}
